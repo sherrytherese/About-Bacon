@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family:'Raleway', sans-serif;
+}
+
+/* Body - introduction */
+.introduction {
+	background-image: url('../Bacon.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70rem;
+}
+.heading
