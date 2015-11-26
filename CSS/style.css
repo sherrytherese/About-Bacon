@@ -8,12 +8,77 @@ body {
 	font-family:'Raleway', sans-serif;
 }
 
-/* Body - introduction */
-.introduction {
+/* Body - background image */
+body {
 	background-image: url('../Bacon.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 70rem;
+	height: 50rem;
 }
-.heading
+
+/* Body - introduction */
+.introduction .heading h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5rem;
+	margin: 0rem 2rem;
+	padding-top: 3rem;
+	color: #333;
+}
+.introduction .message h3 {
+	font-family: 'Raleway', sans-serif;
+	margin: 1rem 2rem;
+	color: #767676;
+}
+
+/* Body - rightnav */
+ul {
+	list-style: none;
+}
+.projectlist h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	margin: 1rem 2rem;
+	padding-top: 4rem;
+	padding-bottom: .5rem;
+	color: #333;
+}
+.projectlinks li {
+	display: block;
+	height: 2.5rem;
+	margin: 0rem -.25rem;
+}
+.projectlinks li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	border-top: 1px #777777 solid;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	width: 20%;
+}
+
+/* Footer */
+.footer .content h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	margin: 1rem 2rem;
+	padding-top: 3rem;
+	padding-bottom: .5rem;
+	color: #333;
+}
+.footer .icons >li {
+	border-radius: 2rem;
+	width: 3.5rem;
+	height: 3.5rem;
+	border: 1px solid #eaebec;
+	text-align: center;
+	display: inline-block;
+	padding-top: 1rem;
+	margin-right: 1.5rem;
+}
+.footer h5 {
+	color: #333;
+	margin: 3rem 2rem;
+}
+
