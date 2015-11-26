@@ -14,7 +14,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 50rem;
+	overflow: scroll;
+	background-attachment: fixed;
 }
 
 /* Body - introduction */
@@ -67,18 +68,28 @@ ul {
 	padding-bottom: .5rem;
 	color: #333;
 }
-.footer .icons >li {
+.footer .icons > li {
 	border-radius: 2rem;
 	width: 3.5rem;
 	height: 3.5rem;
 	border: 1px solid #eaebec;
 	text-align: center;
 	display: inline-block;
-	padding-top: 1rem;
+	padding-top: .75rem;
 	margin-right: 1.5rem;
 }
+.instagram > a {
+	color: #333;
+}
+.twitter > a {
+	color: #333;
+}
+.facebook > a {
+	color: #333;
+}
+
 .footer h5 {
 	color: #333;
-	margin: 3rem 2rem;
+	margin: 3rem 2.5rem;
 }
 
